@@ -26,11 +26,10 @@ reference：[https://blog.csdn.net/FatalFlower/article/details/108686549](https:
 ## glm
 * Download：[https://github.com/g-truc/glm](https://github.com/g-truc/glm)
   
-# Compile for the third libraries：
+## Compile for the third libraries：
 ```bash
  Generate makefiles：cmake -G "MinGW Makefiles" -S . -B .
- compile：
-cmake --build .
+ compile：cmake --build .
 ```
 The -S option refers to the root directory of the source code, and the -B option specifies the build directory. Adjust these according to your setup.
 
@@ -40,7 +39,7 @@ Note for Windows:
 * OpenGL  library is called `opengl32` not `GL` 
 * make is called `mingw32-make` not `make`
 
-Shell commands for compiling this project：
+## Shell commands for compiling this project：
 
 ```bash
 cd build 
@@ -52,7 +51,7 @@ or
 cmake --build .
 ```
 
-# Reference
+## Reference
 * [https://blog.csdn.net/FatalFlower/article/details/108686549](https://blog.csdn.net/FatalFlower/article/details/108686549)
 * [https://blog.csdn.net/qq\_36286899/article/details/119654550](https://blog.csdn.net/qq_36286899/article/details/119654550)
 * [https://blog.csdn.net/Fyantu/article/details/123420415](https://blog.csdn.net/Fyantu/article/details/123420415)
