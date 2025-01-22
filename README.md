@@ -12,7 +12,7 @@
 reference：[https://blog.csdn.net/FatalFlower/article/details/108686549](https://blog.csdn.net/FatalFlower/article/details/108686549)
 
 
-### Third-party Libraries
+## Third-party Libraries
 ### glut
 * Download：[https://sourceforge.net/projects/freeglut/](https://sourceforge.net/projects/freeglut/)
 ### glew
