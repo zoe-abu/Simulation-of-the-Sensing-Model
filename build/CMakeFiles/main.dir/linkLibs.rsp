@@ -1,0 +1,1 @@
+  -L"C:/Users/HP/work/opengl-related/multilight-demo1/lib"  -lsoil -lglfw3 -lglad -lglew32 -lfreeglut_static -lopengl32 -lglm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
