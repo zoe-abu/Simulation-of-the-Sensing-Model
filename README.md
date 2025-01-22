@@ -27,9 +27,11 @@ reference：[https://blog.csdn.net/FatalFlower/article/details/108686549](https:
 * Download：[https://github.com/g-truc/glm](https://github.com/g-truc/glm)
   
 # Compile for the third libraries：
-** Generate makefiles：cmake -G "MinGW Makefiles" -S . -B .
-** compile：
+```bash
+ Generate makefiles：cmake -G "MinGW Makefiles" -S . -B .
+ compile：
 cmake --build .
+```
 The -S option refers to the root directory of the source code, and the -B option specifies the build directory. Adjust these according to your setup.
 
 
