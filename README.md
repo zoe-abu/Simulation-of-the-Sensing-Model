@@ -12,18 +12,18 @@
 reference：[https://blog.csdn.net/FatalFlower/article/details/108686549](https://blog.csdn.net/FatalFlower/article/details/108686549)
 
 
-# Third-party Libraries
-## glut
+### Third-party Libraries
+### glut
 * Download：[https://sourceforge.net/projects/freeglut/](https://sourceforge.net/projects/freeglut/)
-## glew
+### glew
 * Download：[http://glew.sourceforge.net/index.html](http://glew.sourceforge.net/index.html)
-## glfw
+### glfw
 * Download：[https://www.glfw.org/](https://www.glfw.org/)
-## glad
+### glad
 * Download：[https://glad.dav1d.de/](https://glad.dav1d.de/)
-## soil 
+### soil 
 * Download：[http://www.lonesock.net/files/soil.zip](http://www.lonesock.net/files/soil.zip)
-## glm
+### glm
 * Download：[https://github.com/g-truc/glm](https://github.com/g-truc/glm)
   
 ## Compile for the third libraries：
