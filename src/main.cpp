@@ -40,11 +40,6 @@ float lastFrame = 0.0f;
 const float ambientStart = 0.12f, ambientEnd = 0.12f, ambientStep = 0.02f;
 const float diffuseStart = 0.15f, diffuseEnd = 0.15f, diffuseStep = 0.05f;
 const float specularStart = 0.05f, specularEnd = 0.3f, specularStep = 0.05f;
-// const float diffuseStart = 0.65f, diffuseEnd = 1.1f, diffuseStep = 0.3f;
-// const float specularStart = 0.65f, specularEnd = 1.1f, specularStep = 0.3f;
-// const float linearStart = 0.05f, linearEnd = 0.21f, linearStep = 0.15f;
-// const float quadraticStart = 0.05f, quadraticEnd = 0.21f, quadraticStep = 0.1f;
-// const float shininessStart = 20.0f, shininessEnd = 48.0f, shininessStep = 16.0f;
 const float linearStart = 0.09f, linearEnd = 0.09f, linearStep = 0.15f;
 const float quadraticStart = 0.03f, quadraticEnd = 0.03f, quadraticStep = 0.01f;
 const float shininessStart = 5.0f, shininessEnd = 5.0f, shininessStep = 16.0f;
@@ -139,20 +134,6 @@ int main()
         glm::vec3( 0.71f, -0.71f, 0.0f),
     };
 
-    // glm::vec3 pointLightOffsets[] = {
-    //     glm::vec3( 1.0f,  0.0f,  0.0f),
-    //     glm::vec3( 0.8f,  0.6f,  0.0f),
-    //     glm::vec3( 0.6f,  0.8f,  0.0f),
-    //     glm::vec3( 0.0f,  1.0f,  0.0f),
-    //     glm::vec3(-0.6f,  0.8f,  0.0f),
-    //     glm::vec3(-0.8f,  0.6f,  0.0f),
-    //     glm::vec3(-1.0f,  0.0f,  0.0f),
-    //     glm::vec3(-0.8f, -0.6f,  0.0f),
-    //     glm::vec3(-0.6f, -0.8f,  0.0f),
-    //     glm::vec3( 0.0f, -1.0f,  0.0f),
-    //     glm::vec3( 0.6f, -0.8f,  0.0f),
-    //     glm::vec3( 0.8f, -0.6f,  0.0f),
-    // };
 
     // Define start and end distances
     float startDistance = 5.0f;
@@ -264,19 +245,6 @@ int main()
                                         glBindVertexArray(cubeVAO);
                                         glDrawArrays(GL_TRIANGLES, 0, 36);
 
-                                        // for (unsigned int i = 0; i < 1; i++)
-                                        // {
-                                        //     // Calculate the model matrix for each object and pass it to shader before drawing
-                                        //     glm::mat4 model = glm::mat4(1.0f);
-                                        //     model = glm::translate(model, cubePositions[i]);
-                                        //     float angle = 90.0f * i;
-                                        //     model = glm::rotate(model, glm::radians(angle), glm::vec3(1.0f, 0.3f, 0.5f));
-                                        //     ourShader.setMatrix4fv("model", glm::value_ptr(model));
-
-                                        //     // Render the cube
-                                        //     glBindVertexArray(cubeVAO);
-                                        //     glDrawArrays(GL_TRIANGLES, 0, 36);
-                                        // }
 
                                         // Also draw the lamp object (if needed)
                                         lampShader.use();
